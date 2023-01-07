@@ -1,0 +1,282 @@
+
+:root
+{          
+    --theme1: linear-gradient( #efefef,  #dd2a7c);
+   
+}
+.logo::after{
+    content: "Beta";
+}
+
+   
+.page-header__logo
+{
+   display: flex;
+}
+#tree {
+    display: none;
+    height: 40px;
+    width: 40px;
+}
+
+.sainttheme{
+    --theme1: linear-gradient( #156d4f,#0a3e2c);
+}
+
+#saintswitch{
+    z-index: 1;
+    margin-top: 10px;
+   position: fixed;
+   width: 80px;
+   text-align: center;
+   background:#0e543c;
+   color: wheat;
+   border-radius: 0px 7px 7px 0px;
+}
+#saintswitch:hover{
+    cursor: pointer;
+}
+
+.stickyheader{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+
+}
+.stickyheadermargin{
+    padding-top: 55px;
+    background: var(--theme1);
+    
+}
+
+
+.modal1{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+
+
+}
+
+
+@keyframes  animationmodal1{
+    
+    0%{
+        margin-left: -1000vh;
+    }
+}
+
+.modal2{
+    
+   max-width: 300px;
+   border: solid 2px black;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px; 
+   animation: animationmodal1 2s  ;
+  
+}
+
+.loader1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.loader3{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    margin-top: 8px;
+    animation: animation2 10s;
+    animation-iteration-count: infinite;
+    
+   
+}
+.loader2{
+    border: solid 7px black;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+    animation: animation1 10s ;
+   animation-iteration-count: infinite;
+
+}
+@keyframes animation1{
+    50%{
+     transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+       }
+}
+@keyframes animation2{
+    50%{
+     border-radius: 25px ;
+    }
+    100%{
+        border-radius: 0px ;
+       }
+}
+
+
+.snow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.snow1{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;
+    margin-top: -20vh ;   
+}
+.snow2{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;  
+    margin-top: -70vh ;  
+}
+.snow3{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;   
+    margin-top: -25vh ; 
+}
+.snow4{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite; 
+    margin-top: -50vh ;   
+}
+.snow5{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;   
+    margin-top: -80vh ; 
+}
+.snow6{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;   
+    margin-top: -120vh ; 
+}
+.snow7{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;  
+    margin-top: -140vh ;  
+}
+.snow8{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite; 
+    margin-top: -100vh ;   
+}
+.snow9{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;   
+    margin-top: -150vh ; 
+}
+.snow10{
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow 8s ;
+    animation-iteration-count: infinite;  
+    margin-top: -115vh ;  
+}
+
+
+
+@keyframes animationsnow{
+    100%{
+        margin-top: 100vh;
+        
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-header {
+    margin-bottom: 30px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 5px 5px 5px black;
+}
+
+.page-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.page-header__logo {
+    flex-shrink: 0;
+}
+
+.page-header__logo img {
+    display: block;
+}
+
+.page-header__search {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .page-header__search {
+        display: block;
+    }
+}

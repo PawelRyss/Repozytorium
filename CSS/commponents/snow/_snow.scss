@@ -1,0 +1,163 @@
+#snow{
+    display: none;
+    justify-content: space-between;
+}
+
+.snow1{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow1 17s ;
+    animation-iteration-count: infinite;
+    margin-top: -20vh ;   
+}
+@keyframes animationsnow1{
+    100%{
+        margin-top: 100vh;
+        
+       }
+
+}
+.snow2{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow2 17s ;
+    animation-iteration-count: infinite;  
+    margin-top: -70vh ;  
+}
+@keyframes animationsnow2{
+    100%{
+        margin-top: 100vh;
+        margin-left: 20vh;
+        
+       }
+
+}
+.snow3{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow3 5s ;
+    animation-iteration-count: infinite;   
+    margin-top: -25vh ; 
+}
+
+@keyframes animationsnow3{
+    100%{
+        margin-top: 100vh;
+        
+       }
+
+}
+.snow4{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow4 15s ;
+    animation-iteration-count: infinite; 
+    margin-top: -50vh ;   
+}
+@keyframes animationsnow4{
+    100%{
+        margin-top: 100vh;
+        
+       }
+
+}
+.snow5{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow5 13s ;
+    animation-iteration-count: infinite;   
+    margin-top: -80vh ; 
+}
+@keyframes animationsnow5{
+    100%{
+        margin-top: 100vh;
+        margin-left: -20vh;
+       }
+
+}
+.snow6{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow6 8s ;
+    animation-iteration-count: infinite;   
+    margin-top: -120vh ; 
+}
+@keyframes animationsnow6{
+    100%{
+        margin-top: 100vh;
+        margin-left: 50vh;
+       }
+
+}
+.snow7{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow7 11s ;
+    animation-iteration-count: infinite;  
+    margin-top: -140vh ;  
+}
+@keyframes animationsnow7{
+    100%{
+        margin-top: 100vh;
+        margin-left: -40vh;
+       }
+
+}
+.snow8{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow8 5s ;
+    animation-iteration-count: infinite; 
+    margin-top: -100vh ;   
+}
+@keyframes animationsnow8{
+    100%{
+        margin-top: 100vh;
+        margin-left: 30vh;
+       }
+
+}
+.snow9{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow9 11s ;
+    animation-iteration-count: infinite;   
+    margin-top: -150vh ; 
+}
+@keyframes animationsnow9{
+    100%{
+        margin-top: 100vh;
+        margin-left: -20vh;
+       }
+
+}
+.snow10{
+    z-index: 1;
+    position: fixed;
+    box-shadow: 10px 10px 10px 10px white;
+    animation: animationsnow10 7s ;
+    animation-iteration-count: infinite;  
+    margin-top: -115vh ;  
+    margin-left: -5vh;
+}
+
+
+
+@keyframes animationsnow10{
+    100%{
+        margin-top: 100vh;
+        
+       }
+
+}
+
+
