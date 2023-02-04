@@ -155,39 +155,9 @@ const elements = [
     post__commentscomment.appendChild(more);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-    
     
     
     
 
-    
-    
-    
-    
 
     });
